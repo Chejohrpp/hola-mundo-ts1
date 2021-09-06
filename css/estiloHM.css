@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&display=swap');
+
+body{
+    background: black;
+    height: 100vh;
+    position: relative;
+    place-items: center;
+
+}
+#particles-js{
+    background: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    position: absolute;
+
+}
+#hola-mundo{
+    background: none;
+    color: red;
+    position: absolute;
+    left: 30em;
+    top: 19em;
+}
+#h1-hw{
+    font-size: 70px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.list{
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+}
+/* Style del video: 100% width y height para pantalla completa */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 20%;
+  }
+
+  #h1-hw2,#h1-gpv{
+    opacity: 0;
+    font-size: 70px;
+    font-family: 'Cabin', sans-serif;
+  }
